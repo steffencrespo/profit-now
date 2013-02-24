@@ -4,5 +4,11 @@
     <string name="app_name">ProfitNow</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="purchase_price">Purchase Price</string>
+    <string name="final_target">Final Target</string>
+    <string name="percent_profit">% Profit</string>
+    <string name="current_price">Current Price</string>
+    <string name="profit_now">% Profit Now!</string>
+    <string name="calculate_button">What\'s My Profit?</string>
 
 </resources>

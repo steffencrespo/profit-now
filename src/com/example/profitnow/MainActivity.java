@@ -25,14 +25,9 @@ public class MainActivity extends Activity {
 		currentPrice = (EditText) findViewById(R.id.editText4);
 		currentProfit = (EditText) findViewById(R.id.editText5);
 		
-		purchasePrice.setText("0");
-		finalTarget.setText("0");
-		finalProfit.setText("0");
-		currentPrice.setText("0");
-		currentProfit.setText("0");
-		
+		fillTheNumberFields();
 	}
-
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
@@ -52,6 +47,14 @@ public class MainActivity extends Activity {
 	
 	private float percentualValueOf(float purchase, float sale){
 		return (1-(purchase/sale))*100;
+	}
+	
+	private void fillTheNumberFields(){
+		purchasePrice.setText("0");
+		finalTarget.setText("0");
+		finalProfit.setText("0");
+		currentPrice.setText("0");
+		currentProfit.setText("0");
 	}
 
 }

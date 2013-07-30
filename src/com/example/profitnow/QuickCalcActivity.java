@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 
 public class QuickCalcActivity extends Activity {
+	private EditText stockCodeName;
 	private EditText purchasePrice;
 	private EditText finalTarget;
 	private EditText finalProfit;
@@ -19,6 +20,7 @@ public class QuickCalcActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
+		stockCodeName = (EditText) findViewById(R.id.EditText01);
 		purchasePrice = (EditText) findViewById(R.id.editText1);
 		finalTarget = (EditText) findViewById(R.id.editText2);
 		finalProfit = (EditText) findViewById(R.id.editText3);
@@ -50,6 +52,7 @@ public class QuickCalcActivity extends Activity {
 	}
 	
 	private void fillTheNumberFields(){
+		stockCodeName.setText("Add the stock codename");
 		purchasePrice.setText("0");
 		finalTarget.setText("0");
 		finalProfit.setText("0");

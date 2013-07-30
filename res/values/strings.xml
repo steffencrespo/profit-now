@@ -9,6 +9,7 @@
     <string name="percent_profit">% Profit</string>
     <string name="current_price">Current Price</string>
     <string name="profit_now">% Profit Now!</string>
+    <string name="stock_code_name">Stock Code Name</string>
     <string name="calculate_button">What\'s My Profit?</string>
 
 </resources>

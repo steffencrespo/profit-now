@@ -52,7 +52,7 @@ public class QuickCalcActivity extends Activity {
 	}
 	
 	private void fillTheNumberFields(){
-		stockCodeName.setText("Add the stock codename");
+		stockCodeName.setText("");
 		purchasePrice.setText("0");
 		finalTarget.setText("0");
 		finalProfit.setText("0");

@@ -6,7 +6,7 @@
     <string name="menu_settings">Settings</string>
     <string name="purchase_price">Purchase Price</string>
     <string name="final_target">Final Target</string>
-    <string name="percent_profit">% Profit</string>
+    <string name="percent_profit">Final % Profit</string>
     <string name="current_price">Current Price</string>
     <string name="profit_now">% Profit Now!</string>
     <string name="stock_code_name">Stock Code Name</string>

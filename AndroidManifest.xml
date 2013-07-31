@@ -4,6 +4,13 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
+    <supports-screens
+        android:largeScreens="true"
+        android:largestWidthLimitDp="320"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="16" />
